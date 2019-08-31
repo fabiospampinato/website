@@ -1,0 +1,97 @@
+
+$font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+$gutter: 25px;
+$gutter-half: $gutter / 2;
+$z-depth-1: 0 1px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+$logo-background: #9F9888;
+$logo-halo-size: 100px;
+$button-background: #f9f9f9;
+$button-foreground: hsl(0, 0%, 12%);
+
+body,
+html,
+#__next {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  font-family: $font-family;
+}
+
+p {
+  margin: 0;
+  text-align: center;
+}
+
+.layout {
+  padding: $gutter;
+}
+
+.logo {
+  background-color: $logo-background;
+  border-radius: 1000000px;
+  box-shadow: $z-depth-1;
+}
+
+.button {
+
+  display: block;
+  background-color: $button-background;
+  color: $button-foreground;
+  padding: $gutter-half;
+  border-radius: $gutter;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: $z-depth-1;
+
+  &:hover {
+    background-color: lighten( $button-background, 3 );
+  }
+
+  &:active {
+    background-color: darken( $button-background, 3 );
+  }
+
+  img {
+    vertical-align: middle;
+    width: 24px;
+    height: 24px;
+  }
+
+}
+
+.layout.home {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .logo {
+    width: 192px;
+    height: 192px;
+    margin-bottom: $gutter;
+    box-shadow: $z-depth-1, 0 0 0 450px transparentize( $logo-background, .9 );
+  }
+
+  .name {
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: $gutter-half;
+  }
+
+  .description {
+    font-size: 1.25em;
+    margin-bottom: $gutter;
+  }
+
+  .buttons {
+
+    display: flex;
+
+    .button:not(:last-child) {
+      margin-right: $gutter-half;
+    }
+
+  }
+
+}
