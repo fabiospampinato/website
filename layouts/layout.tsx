@@ -10,7 +10,7 @@ import {DefaultSeo, NextSeo, NextSeoProps} from 'next-seo';
 
 const Layout = ({ className, seo, children }: { className?: string, seo?: NextSeoProps, children: React.ReactNode }) => (
   <div className={`layout ${className || ''}`}>
-    <DefaultSeo title="Fabio Spampinato" description="My personal website." />
+    <DefaultSeo title="Fabio Spampinato" titleTemplate="%s | Fabio Spampinato" description="The personal website of Fabio Spampinato." />
     <NextSeo {...seo} />
     {children}
   </div>
