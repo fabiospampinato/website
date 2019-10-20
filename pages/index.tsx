@@ -13,10 +13,10 @@ const Index = () => (
     <p className="name">Fabio Spampinato</p>
     <p className="description">Full-stack developer passionate about open source and empowering people.</p>
     <div className="buttons">
-      <Button icon="github" href="https://github.com/fabiospampinato" />
-      <Button icon="twitter" href="https://twitter.com/fabiospampinato" />
-      <Button icon="email" href="mailto:spampinabio@gmail.com" />
-      <Button icon="ama" href="https://github.com/fabiospampinato/ama" />
+      <Button icon="github" href="https://github.com/fabiospampinato" title="GitHub Profile" />
+      <Button icon="twitter" href="https://twitter.com/fabiospampinato" title="Twitter Profile" />
+      <Button icon="email" href="mailto:spampinabio@gmail.com" title="Email" />
+      <Button icon="ama" href="https://github.com/fabiospampinato/ama" title="Ask Me Anything" />
     </div>
   </Layout>
 );
