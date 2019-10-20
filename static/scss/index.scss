@@ -39,6 +39,7 @@ html,
   text-decoration: none;
   font-weight: bold;
   box-shadow: $z-depth-1;
+  line-height: 1;
 
   &:hover {
     background-color: lighten( $button-background, 3 );
