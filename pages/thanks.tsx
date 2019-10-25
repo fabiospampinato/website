@@ -17,11 +17,16 @@ const Thanks = () => (
     </ul>
     <h2>Top Supporters <span className="price">$10/month</span></h2>
     <ul>
-      <li className="empty">No top supporters yet.</li>
+      <li><a href="https://github.com/bstinsonmhk">Brian Stinson</a></li>
     </ul>
     <h2>Supporters <span className="price">$5/month</span></h2>
     <ul>
-      <li className="empty">No supporters yet.</li>
+      <li><a href="https://github.com/limonte">Limon Monte</a></li>
+      <li><a href="https://github.com/ddhogan">Donna Hogan</a></li>
+      <li><a href="https://github.com/BobMilli">Bob Milli</a></li>
+      <li><a href="https://github.com/pinklux">pinklux</a></li>
+      <li><a href="https://github.com/ernstki">Kevin Ernst</a></li>
+      {/* <li><a href="https://github.com/Danmou">Daniel Mouritzen</a></li> */}
     </ul>
   </Layout>
 );
