@@ -33,6 +33,8 @@ const Thanks = () => (
       {/* <li><a href="https://github.com/ColinNg">Colin Ng</a></li> */}
       <li><a href="https://github.com/tkilaker">Tim Kilåker</a></li>
       {/* <li><a href="https://github.com/vinaysb">Vinay Bharadhwaj</a></li> */}
+      <li><a href="https://github.com/esai256">Elias Seichter</a></li>
+      <li><a href="https://github.com/thomastu">Thomas Tu</a></li>
     </ul>
   </Layout>
 );
