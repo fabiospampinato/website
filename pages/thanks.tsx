@@ -34,6 +34,7 @@ const Thanks = () => (
       <li><a href="https://github.com/jhconning">Jonathan Conning</a></li>
       <li><a href="https://github.com/kyldvs">Kyle Davis</a></li>
       <li><a href="https://github.com/epmoyer">Eric Moyer</a></li>
+      <li><a href="https://github.com/mdombro">Matt Dombro</a></li>
     </ul>
   </Layout>
 );
