@@ -38,6 +38,9 @@ const Thanks = () => (
       <li><a href="https://github.com/wyudong">Wang Yudong</a></li>
       <li><a href="https://github.com/andyljones">Andy Jones</a></li>
       <li><a href="https://github.com/tetafro">Denis Krivak</a></li>
+      <li><a href="https://github.com/highandmighty">highandmighty</a></li>
+      <li><a href="https://github.com/nrgapple">Adam</a></li>
+      <li><a href="https://github.com/HebelHuber">Hebel Huber</a></li>
     </ul>
   </Layout>
 );
