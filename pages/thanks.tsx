@@ -18,6 +18,8 @@ const Thanks = () => (
     <h2>Top Supporters <span className="price">$10/month</span></h2>
     <ul>
       <li><a href="https://github.com/bstinsonmhk">Brian Stinson</a></li>
+      <li><a href="https://github.com/carlodicelico">Carlo DiCelico</a></li>
+      <li><a href="https://github.com/feipenghe">Pengfei He</a></li>
     </ul>
     <h2>Supporters <span className="price">$5/month</span></h2>
     <ul>
