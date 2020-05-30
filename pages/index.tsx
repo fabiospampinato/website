@@ -15,7 +15,7 @@ const Index = () => (
     <div className="buttons">
       <Button icon="github" href="https://github.com/fabiospampinato" title="GitHub Profile" />
       <Button icon="twitter" href="https://twitter.com/fabiospampinato" title="Twitter Profile" />
-      <Button icon="email" href="mailto:spampinabio@gmail.com" title="Email" />
+      <Button icon="email" href="mailto:fabio@notable.app" title="Email" />
       <Button icon="ama" href="https://github.com/fabiospampinato/ama" title="Ask Me Anything" />
       <Button icon="heart" href="/thanks" title="Thanks" />
     </div>
