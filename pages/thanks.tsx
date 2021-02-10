@@ -6,6 +6,8 @@ import Layout from '@layouts/layout';
 
 /* THANKS */
 
+//SCRIPT: $$('.pl-3 .f4').map ( ele => ele.textContent.trim ().replace ( /\s+Private/, ' (Private)' ) ).filter ( handle => !handle.includes ( '(Private)' ) ).reverse ().map ( handle => `<li><a href="https://github.com/${handle}">${handle}</a></li>` ).join ( '\n' )
+
 const Thanks = () => (
   <Layout className="thanks" seo={{ title: 'Thanks' }}>
     <h1>Thanks ❤️</h1>
@@ -17,37 +19,36 @@ const Thanks = () => (
     </ul>
     <h2>Top Supporters <span className="price">$10/month</span></h2>
     <ul>
-      <li><a href="https://github.com/bstinsonmhk">Brian Stinson</a></li>
-      <li><a href="https://github.com/carlodicelico">Carlo DiCelico</a></li>
-      <li><a href="https://github.com/feipenghe">Pengfei He</a></li>
+      <li><a href="https://github.com/bstinsonmhk">bstinsonmhk</a></li>
+      <li><a href="https://github.com/jhconning">jhconning</a></li>
       <li><a href="https://github.com/nkaleidoskop">nkaleidoskop</a></li>
+      <li><a href="https://github.com/sindresorhus">sindresorhus</a></li>
     </ul>
     <h2>Supporters <span className="price">$5/month</span></h2>
     <ul>
-      <li><a href="https://github.com/limonte">Limon Monte</a></li>
-      <li><a href="https://github.com/BobMilli">Bob Milli</a></li>
-      <li><a href="https://github.com/pinklux">pinklux</a></li>
-      <li><a href="https://github.com/ernstki">Kevin Ernst</a></li>
-      <li><a href="https://github.com/vonnieda">Jason von Nieda</a></li>
-      <li><a href="https://github.com/rdipietro">Robert DiPietro</a></li>
-      <li><a href="https://github.com/tkilaker">Tim Kilåker</a></li>
-      <li><a href="https://github.com/esai256">Elias Seichter</a></li>
-      <li><a href="https://github.com/jhconning">Jonathan Conning</a></li>
-      <li><a href="https://github.com/kyldvs">Kyle Davis</a></li>
-      <li><a href="https://github.com/epmoyer">Eric Moyer</a></li>
-      <li><a href="https://github.com/mdombro">Matt Dombro</a></li>
-      <li><a href="https://github.com/wyudong">Wang Yudong</a></li>
-      <li><a href="https://github.com/andyljones">Andy Jones</a></li>
-      <li><a href="https://github.com/tetafro">Denis Krivak</a></li>
+      <li><a href="https://github.com/BobMilli">BobMilli</a></li>
+      <li><a href="https://github.com/vonnieda">vonnieda</a></li>
+      <li><a href="https://github.com/kyldvs">kyldvs</a></li>
+      <li><a href="https://github.com/epmoyer">epmoyer</a></li>
+      <li><a href="https://github.com/mdombro">mdombro</a></li>
+      <li><a href="https://github.com/wyudong">wyudong</a></li>
+      <li><a href="https://github.com/tetafro">tetafro</a></li>
       <li><a href="https://github.com/highandmighty">highandmighty</a></li>
-      <li><a href="https://github.com/nrgapple">Adam</a></li>
-      <li><a href="https://github.com/HebelHuber">Hebel Huber</a></li>
+      <li><a href="https://github.com/nrgapple">nrgapple</a></li>
       <li><a href="https://github.com/da-moon">da-moon</a></li>
-      <li><a href="https://github.com/CBornes">Carlos Bornes</a></li>
-      <li><a href="https://github.com/JoshCooley">Josh Cooley</a></li>
-      <li><a href="https://github.com/skostojohn">Scott Kostojohn</a></li>
-      <li><a href="https://github.com/sagar-chandarana">Sagar Chandarana</a></li>
-      <li><a href="https://github.com/Jaydon-chai">Jaydon Chai</a></li>
+      <li><a href="https://github.com/sagar-chandarana">sagar-chandarana</a></li>
+      <li><a href="https://github.com/simonrus">simonrus</a></li>
+      <li><a href="https://github.com/paulofreitas">paulofreitas</a></li>
+      <li><a href="https://github.com/ThelloD">ThelloD</a></li>
+      <li><a href="https://github.com/stgarf">stgarf</a></li>
+      <li><a href="https://github.com/gmazzola">gmazzola</a></li>
+      <li><a href="https://github.com/maticzav">maticzav</a></li>
+      <li><a href="https://github.com/ThierryRassat">ThierryRassat</a></li>
+      <li><a href="https://github.com/djbreen7">djbreen7</a></li>
+      <li><a href="https://github.com/ndakic">ndakic</a></li>
+      <li><a href="https://github.com/cschlusche">cschlusche</a></li>
+      <li><a href="https://github.com/captn3m0">captn3m0</a></li>
+      <li><a href="https://github.com/dkutsanov">dkutsanov</a></li>
     </ul>
   </Layout>
 );
