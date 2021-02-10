@@ -15,7 +15,7 @@ const Thanks = () => (
     <p>You can support me, and have your name listed in this page, via <a href="https://github.com/sponsors/fabiospampinato" title="Sponsor me on GitHub">GitHub</a>. Alternatively I also accept direct one-time donations via <a href="https://www.paypal.me/fabiospampinato" title="Sponsor me on PayPal">PayPal</a>.</p>
     <h2>Super Supporters <span className="price">$25/month</span></h2>
     <ul>
-      <li><a href="https://github.com/ramonza">Ramon Nogueira</a></li>
+      <li><em>No super supporters!</em></li>
     </ul>
     <h2>Top Supporters <span className="price">$10/month</span></h2>
     <ul>
