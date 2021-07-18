@@ -23,6 +23,8 @@ const Thanks = () => (
       <li><a href="https://github.com/jhconning">jhconning</a></li>
       <li><a href="https://github.com/nkaleidoskop">nkaleidoskop</a></li>
       <li><a href="https://github.com/sindresorhus">sindresorhus</a></li>
+      <li><a href="https://github.com/dikeert">dikeert</a></li>
+      <li><a href="https://github.com/nfantis">nfantis</a></li>
     </ul>
     <h2>Supporters <span className="price">$5/month</span></h2>
     <ul>
@@ -30,25 +32,23 @@ const Thanks = () => (
       <li><a href="https://github.com/vonnieda">vonnieda</a></li>
       <li><a href="https://github.com/kyldvs">kyldvs</a></li>
       <li><a href="https://github.com/epmoyer">epmoyer</a></li>
-      <li><a href="https://github.com/mdombro">mdombro</a></li>
       <li><a href="https://github.com/wyudong">wyudong</a></li>
       <li><a href="https://github.com/tetafro">tetafro</a></li>
       <li><a href="https://github.com/highandmighty">highandmighty</a></li>
-      <li><a href="https://github.com/nrgapple">nrgapple</a></li>
       <li><a href="https://github.com/da-moon">da-moon</a></li>
       <li><a href="https://github.com/sagar-chandarana">sagar-chandarana</a></li>
       <li><a href="https://github.com/simonrus">simonrus</a></li>
       <li><a href="https://github.com/paulofreitas">paulofreitas</a></li>
       <li><a href="https://github.com/ThelloD">ThelloD</a></li>
-      <li><a href="https://github.com/stgarf">stgarf</a></li>
       <li><a href="https://github.com/gmazzola">gmazzola</a></li>
-      <li><a href="https://github.com/maticzav">maticzav</a></li>
       <li><a href="https://github.com/ThierryRassat">ThierryRassat</a></li>
       <li><a href="https://github.com/djbreen7">djbreen7</a></li>
       <li><a href="https://github.com/ndakic">ndakic</a></li>
       <li><a href="https://github.com/cschlusche">cschlusche</a></li>
       <li><a href="https://github.com/captn3m0">captn3m0</a></li>
       <li><a href="https://github.com/dkutsanov">dkutsanov</a></li>
+      <li><a href="https://github.com/ryarmst">ryarmst</a></li>
+      <li><a href="https://github.com/DetectiveBrie">DetectiveBrie</a></li>
     </ul>
   </Layout>
 );
