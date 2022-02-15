@@ -6,7 +6,7 @@ import Layout from '@layouts/layout';
 
 /* THANKS */
 
-//SCRIPT: $$('.pl-3 .f4').map ( ele => ele.textContent.trim ().replace ( /\s+Private/, ' (Private)' ) ).filter ( handle => !handle.includes ( '(Private)' ) ).reverse ().map ( handle => `<li><a href="https://github.com/${handle}">${handle}</a></li>` ).join ( '\n' )
+//SCRIPT: console.log ( $$('.sponsor-cell:nth-child(2)').map ( ele => ele.textContent.trim ().replace ( /\s+Private/, ' (Private)' ) ).filter ( handle => !handle.includes ( '(Private)' ) ).reverse ().map ( handle => `<li><a href="https://github.com/${handle}">${handle}</a></li>` ).join ( '\n' ) )
 
 const Thanks = () => (
   <Layout className="thanks" seo={{ title: 'Thanks' }}>
@@ -15,40 +15,37 @@ const Thanks = () => (
     <p>You can support me, and have your name listed in this page, via <a href="https://github.com/sponsors/fabiospampinato" title="Sponsor me on GitHub">GitHub</a>. Alternatively I also accept direct one-time donations via <a href="https://www.paypal.me/fabiospampinato" title="Sponsor me on PayPal">PayPal</a>.</p>
     <h2>Super Supporters <span className="price">$25/month</span></h2>
     <ul>
-      <li><em>No super supporters!</em></li>
+      <li><a href="https://github.com/jhconning">jhconning</a></li>
     </ul>
     <h2>Top Supporters <span className="price">$10/month</span></h2>
     <ul>
-      <li><a href="https://github.com/bstinsonmhk">bstinsonmhk</a></li>
-      <li><a href="https://github.com/jhconning">jhconning</a></li>
+      <li><a href="https://github.com/epmoyer">epmoyer</a></li>
       <li><a href="https://github.com/nkaleidoskop">nkaleidoskop</a></li>
-      <li><a href="https://github.com/sindresorhus">sindresorhus</a></li>
-      <li><a href="https://github.com/dikeert">dikeert</a></li>
-      <li><a href="https://github.com/nfantis">nfantis</a></li>
+      <li><a href="https://github.com/bjornhauge">bjornhauge</a></li>
+      <li><a href="https://github.com/Senth">Senth</a></li>
+      <li><a href="https://github.com/matthewrv">matthewrv</a></li>
+      <li><a href="https://github.com/bluebirch">bluebirch</a></li>
+      <li><a href="https://github.com/jrdmellow">jrdmellow</a></li>
     </ul>
     <h2>Supporters <span className="price">$5/month</span></h2>
     <ul>
       <li><a href="https://github.com/BobMilli">BobMilli</a></li>
       <li><a href="https://github.com/vonnieda">vonnieda</a></li>
-      <li><a href="https://github.com/kyldvs">kyldvs</a></li>
-      <li><a href="https://github.com/epmoyer">epmoyer</a></li>
       <li><a href="https://github.com/wyudong">wyudong</a></li>
       <li><a href="https://github.com/tetafro">tetafro</a></li>
       <li><a href="https://github.com/highandmighty">highandmighty</a></li>
-      <li><a href="https://github.com/da-moon">da-moon</a></li>
       <li><a href="https://github.com/sagar-chandarana">sagar-chandarana</a></li>
       <li><a href="https://github.com/simonrus">simonrus</a></li>
-      <li><a href="https://github.com/paulofreitas">paulofreitas</a></li>
       <li><a href="https://github.com/ThelloD">ThelloD</a></li>
       <li><a href="https://github.com/gmazzola">gmazzola</a></li>
       <li><a href="https://github.com/ThierryRassat">ThierryRassat</a></li>
-      <li><a href="https://github.com/djbreen7">djbreen7</a></li>
       <li><a href="https://github.com/ndakic">ndakic</a></li>
       <li><a href="https://github.com/cschlusche">cschlusche</a></li>
-      <li><a href="https://github.com/captn3m0">captn3m0</a></li>
-      <li><a href="https://github.com/dkutsanov">dkutsanov</a></li>
       <li><a href="https://github.com/ryarmst">ryarmst</a></li>
-      <li><a href="https://github.com/DetectiveBrie">DetectiveBrie</a></li>
+      <li><a href="https://github.com/gorhack">gorhack</a></li>
+      <li><a href="https://github.com/satiowadahc">satiowadahc</a></li>
+      <li><a href="https://github.com/carondolet">carondolet</a></li>
+      <li><a href="https://github.com/marco-m">marco-m</a></li>
     </ul>
   </Layout>
 );
