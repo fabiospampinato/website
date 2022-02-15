@@ -1,12 +1,11 @@
 
 /* IMPORT */
 
-const TsconfigPathsPlugin = require ( 'tsconfig-paths-webpack-plugin' ),
-      withSass = require ( '@zeit/next-sass' );
+const TsconfigPathsPlugin = require ( 'tsconfig-paths-webpack-plugin' );
 
 /* CONFIG */
 
-const config = withSass ({
+const config = {
   webpack ( config ) {
     if ( !config.resolve.plugins ) config.resolve.plugins = [];
     config.resolve.plugins.push ( new TsconfigPathsPlugin () );
@@ -15,7 +14,7 @@ const config = withSass ({
   experimental: {
     publicDirectory: true
   }
-});
+};
 
 /* EXPORT */
 

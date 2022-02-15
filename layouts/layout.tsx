@@ -1,8 +1,6 @@
 
 /* IMPORT */
 
-import '@static/scss/index.scss';
-
 import React from 'react';
 import {DefaultSeo, NextSeo, NextSeoProps} from 'next-seo';
 

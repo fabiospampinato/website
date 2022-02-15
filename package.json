@@ -31,8 +31,8 @@
     "fabiospampinato"
   ],
   "dependencies": {
-    "next": "^9.0.5",
-    "next-seo": "^2.0.0",
+    "next": "^10.2.3",
+    "next-seo": "^4.29.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
   },
@@ -40,10 +40,9 @@
     "@types/node": "^12.7.3",
     "@types/react": "^16.9.2",
     "@types/react-dom": "^16.9.0",
-    "@zeit/next-sass": "^1.0.1",
     "del-cli": "^2.0.0",
     "git-directory-deploy": "^1.5.1",
-    "node-sass": "^4.12.0",
+    "sass": "^1.49.7",
     "tsconfig-paths-webpack-plugin": "^3.2.0",
     "typescript": "^3.6.2"
   }
