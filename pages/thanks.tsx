@@ -23,29 +23,27 @@ const Thanks = () => (
       <li><a href="https://github.com/nkaleidoskop">nkaleidoskop</a></li>
       <li><a href="https://github.com/bjornhauge">bjornhauge</a></li>
       <li><a href="https://github.com/Senth">Senth</a></li>
-      <li><a href="https://github.com/matthewrv">matthewrv</a></li>
       <li><a href="https://github.com/bluebirch">bluebirch</a></li>
-      <li><a href="https://github.com/jrdmellow">jrdmellow</a></li>
+      <li><a href="https://github.com/aecea">aecea</a></li>
     </ul>
     <h2>Supporters <span className="price">$5/month</span></h2>
     <ul>
       <li><a href="https://github.com/BobMilli">BobMilli</a></li>
       <li><a href="https://github.com/vonnieda">vonnieda</a></li>
       <li><a href="https://github.com/wyudong">wyudong</a></li>
-      <li><a href="https://github.com/tetafro">tetafro</a></li>
-      <li><a href="https://github.com/highandmighty">highandmighty</a></li>
       <li><a href="https://github.com/sagar-chandarana">sagar-chandarana</a></li>
       <li><a href="https://github.com/simonrus">simonrus</a></li>
       <li><a href="https://github.com/ThelloD">ThelloD</a></li>
       <li><a href="https://github.com/gmazzola">gmazzola</a></li>
-      <li><a href="https://github.com/ThierryRassat">ThierryRassat</a></li>
-      <li><a href="https://github.com/ndakic">ndakic</a></li>
       <li><a href="https://github.com/cschlusche">cschlusche</a></li>
-      <li><a href="https://github.com/ryarmst">ryarmst</a></li>
       <li><a href="https://github.com/gorhack">gorhack</a></li>
       <li><a href="https://github.com/satiowadahc">satiowadahc</a></li>
       <li><a href="https://github.com/carondolet">carondolet</a></li>
-      <li><a href="https://github.com/marco-m">marco-m</a></li>
+      <li><a href="https://github.com/freisatz">freisatz</a></li>
+      <li><a href="https://github.com/atlessenger">atlessenger</a></li>
+      <li><a href="https://github.com/genericmoniker">genericmoniker</a></li>
+      <li><a href="https://github.com/Alexhuszagh">Alexhuszagh</a></li>
+      <li><a href="https://github.com/marcusyoung">marcusyoung</a></li>
     </ul>
   </Layout>
 );
