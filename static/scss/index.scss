@@ -74,7 +74,8 @@ html,
     width: 192px;
     height: 192px;
     margin-bottom: $gutter;
-    box-shadow: $z-depth-1, 0 0 0 450px transparentize( $logo-background, .9 );
+    box-shadow: $z-depth-1;
+    outline: 450px solid #F5F5F3;
   }
 
   .name {
