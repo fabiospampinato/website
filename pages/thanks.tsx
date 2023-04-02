@@ -25,6 +25,7 @@ const Thanks = () => (
       <li><a href="https://github.com/Senth">Senth</a></li>
       <li><a href="https://github.com/bluebirch">bluebirch</a></li>
       <li><a href="https://github.com/aecea">aecea</a></li>
+      <li><a href="https://github.com/Jutanium">Jutanium</a></li>
     </ul>
     <h2>Supporters <span className="price">$5/month</span></h2>
     <ul>
