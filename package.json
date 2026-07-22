@@ -4,7 +4,7 @@
   "repository": "github:fabiospampinato/website",
   "description": "My personal website.",
   "license": "MIT",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "scripts": {
     "deploy": "git-directory-deploy --directory src",
     "dev": "open ./src/index.html"
