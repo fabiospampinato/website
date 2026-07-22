@@ -6,7 +6,8 @@
   "license": "MIT",
   "version": "2.0.0",
   "scripts": {
-    "deploy": "git-directory-deploy --directory src"
+    "deploy": "git-directory-deploy --directory src",
+    "dev": "open ./src/index.html"
   },
   "keywords": [
     "website",
