@@ -13,6 +13,3 @@ Thumbs.db
 dist
 node_modules
 package-lock.json
-out
-.next
-next-env.d.ts
